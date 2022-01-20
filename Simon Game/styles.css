@@ -1,0 +1,76 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.yellow {
+    background-color: yellow;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.hover {
+    opacity: 0.5;
+}
+
+.selected {
+    background-color: black;
+}
