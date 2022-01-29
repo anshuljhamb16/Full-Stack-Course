@@ -12,13 +12,12 @@
 
         <% newListItems.forEach(function(el, index) {   %>
 
-            <div class="item">
-                <input type="checkbox">
-                <p>
-                    <%= el %>
-                </p>
-            </div>
-
+            <form class="item" action="/delete" method="post">
+                <input name="member" value="<%= el %>" onchange="submit()" type="checkbox">
+                <label style="font-family:verdana; font-size:20px">
+                        <%= el %>
+                </label>
+            </form>
 
             <%  });     %>
 
@@ -29,6 +28,6 @@
 
     </div>
 
-    <p position="centre"><a href="about" class="btn btn-link" role="button">About</a></p>
+    <!-- <p position="centre"><a href="about" class="btn btn-link" role="button">About</a></p> -->
 
     <%- include("footer") -%>
