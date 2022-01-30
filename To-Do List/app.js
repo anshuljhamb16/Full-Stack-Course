@@ -10,7 +10,7 @@ app.use(express.static("public"));
 //Import the mongoose module and setting up default mongoose connection
 var mongoose = require('mongoose');
 var database = "my_database"
-var mongoDB = 'mongodb://127.0.0.1/' + database;
+var mongoDB = 'mongodb+srv://admin:test123@cluster0.8lsya.mongodb.net/my_database?retryWrites=true&w=majority'
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error: "));
