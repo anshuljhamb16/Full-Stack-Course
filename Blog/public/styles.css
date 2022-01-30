@@ -1,0 +1,24 @@
+.item {
+    text-align: center;
+}
+
+.a {
+    text-align: center;
+}
+
+.truncate {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.inline {
+    display: inline-block;
+    margin: 0;
+}
+
+.p {
+    display: inline-block;
+    margin: 0;
+}
